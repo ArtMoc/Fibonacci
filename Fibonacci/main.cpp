@@ -6,7 +6,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int f = 0;
-	cout << "До какого предела вывести ряд: "; cin >> f;
+	cout << "Enter the extreme limit of the series: "; cin >> f;
 	Fibonacci(f);
 }
 void Fibonacci(int f)
